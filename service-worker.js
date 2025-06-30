@@ -10,9 +10,9 @@ const urlsToCache = [
   'style.css',
   'script.js',
   'manifest.json',
-  'logo.jpg',
-  'logo-192.png', // Aggiungi queste icone che creerai
-  'logo-512.png', // Aggiungi queste icone che creerai
+  'logo.png',
+  'icon-192.png', // Aggiungi queste icone che creerai
+  'icon-512.png', // Aggiungi queste icone che creerai
   // Inserisci qui tutti i percorsi dei tuoi file audio!
   'suoni/Sigla.mp3',
   'suoni/Sottofondo.mp3',
