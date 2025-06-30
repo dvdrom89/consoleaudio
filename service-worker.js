@@ -14,13 +14,13 @@ const urlsToCache = [
   'icon-192.png', // Aggiungi queste icone che creerai
   'icon-512.png', // Aggiungi queste icone che creerai
   // Inserisci qui tutti i percorsi dei tuoi file audio!
-  'suoni/Sigla.mp3',
+  'suoni/Sigla.m4a',
   'suoni/Sottofondo.mp3',
-  'suoni/Ritornello.mp3',
+  'suoni/Ritornello.m4a',
   'suoni/Suspense.mp3',
   'suoni/La La La.mp3',
-  'suoni/Applausi.mp3',
-  'suoni/Risate.mp3',
+  'suoni/Applausi.m4a',
+  'suoni/Risate.m4a',
   'suoni/Buuu.mp3',
   'suoni/Padre Natura.mp3',
   'suoni/Mappamondo.mp3',
