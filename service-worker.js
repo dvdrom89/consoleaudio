@@ -16,9 +16,9 @@ const urlsToCache = [
   // Inserisci qui tutti i percorsi dei tuoi file audio!
   'suoni/Sigla.mp3',
   'suoni/Sottofondo.mp3',
-  'suoni/Ritornello.wav',
+  'suoni/Ritornello.mp3',
   'suoni/Suspense.mp3',
-  'suoni/La La La.wav',
+  'suoni/La La La.mp3',
   'suoni/Applausi.mp3',
   'suoni/Risate.mp3',
   'suoni/Buuu.mp3',
