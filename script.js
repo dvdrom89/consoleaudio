@@ -1,19 +1,29 @@
-let mainPlayer = new Audio();
+let mainPlayer = null;
 
 function playSolo(file) {
-  if (!file) return;
-  mainPlayer.pause();
-  mainPlayer.currentTime = 0;
-  mainPlayer.src = encodeURI(file); 
-  mainPlayer.play();
+  // Se c'è un player già attivo, fermalo
+  if (mainPlayer && !mainPlayer.paused) {
+    mainPlayer.pause();
+    mainPlayer.currentTime = 0;
+  }
+
+  // Crea un nuovo player per il nuovo file
+  mainPlayer = new Audio(file);
+  mainPlayer.play().catch((e) => {
+    console.log("Audio bloccato dal browser finché non interagisci", e);
+  });
 }
 
 function playOverlay(file) {
-  const audio = new Audio(encodeURI(file));
-  audio.play();
+  const audio = new Audio(file);
+  audio.play().catch((e) => {
+    console.log("Audio overlay bloccato", e);
+  });
 }
 
 function stopAll() {
-  mainPlayer.pause();
-  mainPlayer.currentTime = 0;
+  if (mainPlayer) {
+    mainPlayer.pause();
+    mainPlayer.currentTime = 0;
+  }
 }
