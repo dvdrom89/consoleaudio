@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gioco Finale</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="logo.png" class="logo" alt="Ciao Darwin Logo">
+  <h1>🎲 Gioco Finale</h1>
+  <div class="grid">
+    <button class="btn stop" onclick="stopAll()">🔴 STOP</button>
+    <button class="btn solo" onclick="playSolo('suoni/La La La.mp3')">La La La</button>
+    <button class="btn solo" onclick="playSolo('suoni/Ritornello.mp3')">Ritornello</button>
+    <button class="btn solo" onclick="playSolo('suoni/Sottofondo.mp3')">Sottofondo</button>
+    <button class="btn overlay" onclick="playOverlay('suoni/Applausi.mp3')">Applausi</button>
+    <button class="btn overlay" onclick="playOverlay('suoni/Risate.mp3')">Risate</button>
+    <button class="btn overlay" onclick="playOverlay('suoni/Buuu.mp3')">Buuu</button>
+    <button class="btn solo" onclick="playSolo('suoni/Timer.mp3')">Timer</button>
+    <button class="btn solo" onclick="playSolo('suoni/Timer Veloce.mp3')">Timer Veloce</button>
+  </div>
+  <a href="index.html" class="nav">🏠 Torna alla Home</a>
+  <script src="script.js"></script>
+</body>
+</html>

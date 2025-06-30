@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Prova Coraggio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="logo.png" class="logo" alt="Ciao Darwin Logo">
+  <h1>🎧 Prova Coraggio</h1>
+  <div class="grid">
+    <button class="btn stop" onclick="stopAll()">🔴 STOP</button>
+    <button class="btn solo" onclick="playSolo('suoni/La La La.mp3')">La La La</button>
+    <button class="btn solo" onclick="playSolo('suoni/Ritornello.mp3')">Ritornello</button>
+    <button class="btn solo" onclick="playSolo('suoni/Suspense.mp3')">Suspense</button>
+    <button class="btn overlay" onclick="playOverlay('suoni/Applausi.mp3')">Applausi</button>
+    <button class="btn overlay" onclick="playOverlay('suoni/Risate.mp3')">Risate</button>
+    <button class="btn overlay" onclick="playOverlay('suoni/Buuu.mp3')">Buuu</button>
+  </div>
+  <h2>😱 Effetti Sonori</h2>
+  <div class="grid">
+    <button class="btn overlay" onclick="playOverlay('suoni/Pipistrello.mp3')">Pipistrello</button>
+    <button class="btn overlay" onclick="playOverlay('suoni/Serpente.mp3')">Serpente</button>
+    <button class="btn overlay" onclick="playOverlay('suoni/Vermi.mp3')">Vermi</button>
+    <button class="btn overlay" onclick="playOverlay('suoni/Cacca.mp3')">Cacca</button>
+    <button class="btn overlay" onclick="playOverlay('suoni/Topi.mp3')">Topi</button>
+    <button class="btn overlay" onclick="playOverlay('suoni/Aglio.mp3')">Aglio</button>
+  </div>
+  <a href="index.html" class="nav">🏠 Torna alla Home</a>
+  <script src="script.js"></script>
+</body>
+</html>

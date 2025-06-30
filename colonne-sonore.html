@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Colonne Sonore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="logo.png" class="logo" alt="Ciao Darwin Logo">
+  <h1>🎧 Colonne Sonore</h1>
+  <div class="grid">
+    <button class="btn stop" onclick="stopAll()">🔴 STOP</button>
+    <button class="btn overlay" onclick="playOverlay('suoni/Applausi.mp3')">Applausi</button>
+    <button class="btn overlay" onclick="playOverlay('suoni/Risate.mp3')">Risate</button>
+    <button class="btn overlay" onclick="playOverlay('suoni/Buuu.mp3')">Buuu</button>
+    <button class="btn solo" onclick="playSolo('suoni/La La La.mp3')">La La La</button>
+    <button class="btn solo" onclick="playSolo('suoni/Ritornello.mp3')">Ritornello</button>
+  </div>
+  <h2>🎬 Colonne Sonore</h2>
+  <div class="grid">
+    <button class="btn solo" onclick="playSolo('suoni/TITANIC.mp3')">TITANIC</button>
+    <button class="btn solo" onclick="playSolo('suoni/FOLLOWERS.mp3')">FOLLOWERS</button>
+    <button class="btn solo" onclick="playSolo('suoni/SUPERMERCATO.mp3')">SUPERMERCATO</button>
+    <button class="btn solo" onclick="playSolo('suoni/TG.mp3')">TG</button>
+    <button class="btn solo" onclick="playSolo('suoni/UOMINI PRIMITIVI.mp3')">UOMINI PRIMITIVI</button>
+    <button class="btn solo" onclick="playSolo('suoni/CENERENTOLA GF.mp3')">CENERENTOLA GF</button>
+    <button class="btn solo" onclick="playSolo('suoni/HARRY POTTER.mp3')">HARRY POTTER</button>
+    <button class="btn solo" onclick="playSolo('suoni/IL GLADIATORE.mp3')">IL GLADIATORE</button>
+    <button class="btn solo" onclick="playSolo('suoni/FROZEN.mp3')">FROZEN</button>
+    <button class="btn solo" onclick="playSolo('suoni/AVENGERS.mp3')">AVENGERS</button>
+    <button class="btn solo" onclick="playSolo('suoni/CASTING PAPA.mp3')">CASTING PAPA</button>
+    <button class="btn solo" onclick="playSolo('suoni/IL RE LEONE.mp3')">IL RE LEONE</button>
+  </div>
+  <a href="index.html" class="nav">🏠 Torna alla Home</a>
+  <script src="script.js"></script>
+</body>
+</html>
